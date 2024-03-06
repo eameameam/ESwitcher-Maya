@@ -7,7 +7,9 @@ The `ESwitcher` script offers an intuitive interface for managing multiple contr
 ## Installation
 
 1. Place the `ESwitcher.py` file in the `scripts` folder of your Maya directory.
-2. Assign a hotkey in Maya's Hotkey Editor:
+2. Place the ESwitch folder in the `prefs/icons` folder of your Maya directory.
+3. Assign a hotkey in Maya's Hotkey Editor:
+
 ```python
 import ESwitcher
 ESwitcher.create_popup()
